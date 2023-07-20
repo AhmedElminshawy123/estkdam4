@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!-- meta for website -->
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="description" content="شركه استقدام للعماله المنزليه">
+ <!-- Website name -->
+ <title>استقدام</title>
+ <!-- link for font from google -->
+ <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&#038;display=swap" />
+ <!-- library fontawesome for icons -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+ <!-- icon for browser -->
+ <!-- <link rel="icon" href="./images/_1374010907__Shot_of_a_group_of_medical_practitioners_standing_together_in_a_hospital-removebg-preview (2).png"> -->
+ <link rel="stylesheet" href="./css/estkdam.css">
+ <!-- Google tag (gtag.js) -->
+ <script async src="https://www.googletagmanager.com/gtag/js?id=AW-10882011644"></script>
+ <script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+
+ gtag('config', 'AW-10882011644');
+ </script>
+<!-- Event snippet for Call Re3aity conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+ function gtag_report_conversion(url) {
+   var callback = function () {
+     if (typeof(url) != 'undefined') {
+       window.location = url;
+     }
+   };
+   gtag('event', 'conversion', {
+       'send_to': 'AW-10882011644/-oc9CKGz-7sYEPyj-cQo',
+       'event_callback': callback
+   });
+   return false;
+ }
+ </script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="bar"><i class="fa-solid fa-bars"></i></div>
+            <ul class="main-nav">
+                <li><a href="#main">الرئيسيه</a></li>
+                <li><a href="#services">خدمات الاستقدام</a></li>
+                <li><a href="#country">دول الاستقدام</a></li>
+                <li><a href="#demands">متطلبات الاستقدام</a></li>
+                <li><a href="#stats">ما يميزنا</a></li>
+                <li><a href="#contact">للتواصل معنا </a></li>
+            </ul>
+            <div class="logo">  الاستقدام  </div>
+        </div>
+    </header>
+    <div class="sliderr">
+        <ul class="main-nav">
+            <li><i class="fas fa-close fa-2x close"></i></li>
+            <li><a onclick=gtag_report_conversion() href="#main">الرئيسيه</a></li>
+            <li><a onclick=gtag_report_conversion() href="#services">خدمات الاستقدام</a></li>
+            <li><a onclick=gtag_report_conversion() href="#country">دول الاستقدام</a></li>
+            <li><a onclick=gtag_report_conversion() href="#demands">متطلبات الاستقدام </a></li>
+            <li><a onclick=gtag_report_conversion() href="#stats">ما يميزنا </a></li>
+            <li><a onclick=gtag_report_conversion() href="#contact">للتواصل معنا</a></li>
+        </ul>
+    </div>
+<!-- main -->
+    <!-- start contacts -->
+    <div class="contact">
+      <div class="parent">
+        <a href="https://wa.me/+0550251255?text=" target="_blank" class="youtube">
+          <i class="fa-brands fa-whatsapp"></i>
+      </a>
+      </div>
+  </div>
+  <div class="up">
+    <div class="parent">
+      <a href="#main" class="go-up">
+        <i class="fas fa-angle-double-up fa-2x icon-up icon"></i>
+    </a>
+    </div>
+</div>
+<!-- End contacts -->
+<!-- Container for the image gallery -->
+<div class="landing" id="main">
+    <div class="container">
+
+        <!-- Full-width images with number text -->
+        <div class="mySlides">
+          <div class="numbertext">1 / 6</div>
+            <img src="./images/slider-8.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">2 / 6</div>
+            <img src="./images/slider-4.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">3 / 6</div>
+            <img src="./images/slider-7.jpeg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">4 / 6</div>
+            <img src="./images/slider-2.jpg" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">5 / 6</div>
+            <img src="./images/slider-3.png" style="width:100%">
+        </div>
+      
+        <div class="mySlides">
+          <div class="numbertext">6 / 6</div>
+            <img src="./images/slider-6.jpeg" style="width:100%">
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      
+        <!-- Image text -->
+        <div class="caption-container">
+          <p id="caption"></p>
+        </div>
+      
+        <!-- Thumbnail images -->
+        <div class="row">
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-8.jpg" style="width:100%" onclick="currentSlide(1)" alt="مرحبا بكم في مكتب استقدام العماله لجميع انحاء المملكه">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-4.jpg" style="width:100%" onclick="currentSlide(2)" alt="مكتب استنقدام لخدمات العمالة المنزلية ">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-7.jpeg" style="width:100%" onclick="currentSlide(3)" alt="نعمل على تلبية احتياج قطاع الأفراد لتقديم خدمات التوسط في استقدام العمالة المنزلية من كلا الجنسين للعديد من الجنسيات ومختلف المهن">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-2.jpg" style="width:100%" onclick="currentSlide(4)" alt="نسعى دائماً أن نكون قريبين من عملائنا لتلقي استفساراتكم وتساؤلاتكم المتعلقة بمكتب الإستقدام وخدمات استقدام العمالة المنزلية.">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-3.png" style="width:100%" onclick="currentSlide(5)" alt=" الخدمات المقدمة من مكتب استقدام تتمثل في خدمة التوظيف الصحيح واختيار الكفاءات العمالية اعتمادا على خبراتهم ومهاراتهم.">
+          </div>
+          <div class="column">
+            <img class="demo cursor" src="./images/slider-6.jpeg" style="width:100%" onclick="currentSlide(6)" alt="خدمات الشركة تمتد حتي كل مدن المملكه ">
+          </div>
+        </div>
+      </div>
+</div>
+<!-- main -->
+    <!-- Start HOW IT WORKS ? -->
+    <div id="services" class="HOW_IT_WORKS">
+      <h1 class="main_title_Articles">خدمات الاستقدام</h1>
+      <div class="container">
+          <img src="./images/demands.jpg" width="500px" alt="Not Found">
+          <div class="content">
+              <div class="box">
+                  <div class="text">
+                      <h3>وصول العمالة</h3>
+                  </div>
+              </div>
+              <div class="box">
+                <div class="text">
+                    <h3>تعاقد الإستقدام </h3>
+                </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                  <h3>إختيار العمالة </h3>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                  <h3> إصدار التأشيرة </h3>
+              </div>
+            </div>
+          </div>
+      </div>
+  </div>
+  <!-- End HOW IT WORKS ? -->
+    <!-- Start Pricing -->
+    <div class="pricing" id="country"  dir="rtl">
+        <h1 class="main_title_Articles">دول الاستقدام</h1>
+        <p class="text">متوفر لدينا استقدام من جميع الدول الاتيه حاليا , مده الاستقدام تتراوح بين 30 الي 45 يوم</p>
+        <p class="explain">نعمل في مكتب   لاستقدام   للعماله المنزلية من عدة دول مصرح بها للإستقدام حسب نظام مساند للعمالة المنزلية وفق ما هو مقرر من وزارة العمل السعودي لكلا الجنسين من العديد من الجنسيات المسموح بها لاستقدام العمالة المنزلية حسب أسعار الرواتب الشهرية لكل جنسية ولمهن عديدة للعمالة المنزلية منها السائق الخاص، الخادمة المنزلية، العاملة المنزلية، العامل المنزلي، السفرجي، الممرض أو الممرضة وغير ذلك في  مدة تتراوح بين 30 الي 45 يوم</p>
+        <div class="container">
+            <div class="box">
+                <div class="title">الفلبين</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>طاقم عمل مدرب</li>
+                    <li>خبرات عمل تختارها حسب احتياجات مؤسستك</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">سريلانكا</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>خدمة 24 ساعة</li>
+                    <li>الطلب حسب المواصفات</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">كينيا</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>التواصل الفعاال</li>
+                    <li>توفير طلباتك علي الفور</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">اوغندا</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>انسب الاسعار</li>
+                    <li>افصل الخدمات</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">بنجلادش</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>حسن الاداره والتنظيم</li>
+                    <li>سرعه تلبيه طلبك</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">اثيوبيا</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>طاقم عمل مدرب</li>
+                    <li>خبرات عمل تختارها حسب احتياجات مؤسستك</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            <div class="box">
+                <div class="title">الهند</div>
+                <i class="fa-solid fa-globe"></i>
+                <!-- <ul>
+                    <li>طاقم عمل مدرب</li>
+                    <li>خبرات عمل تختارها حسب احتياجات مؤسستك</li>
+                </ul> -->
+                <a href="https://wa.me/0550251255=?text=" target="_blank">للتواصل معنا</a>
+            </div>
+            
+
+            
+        </div>
+    </div>
+    <!-- End Pricing -->
+    <!-- start demands-->
+    <div class="pricing" id="demands" dir="rtl">
+      <h1 class="main_title_Articles">متطلبات الاستقدام</h1>
+      <div class="container">
+          <div class="box">
+              <div class="title">متطلبات إصدار التأشيرة للإستقدام</div>
+              <ul>
+                 <p>لتقديم طلب إصدار تأشيرة الإستقدام، يرجى زيارة موقع مساند برنامج العمالة المنزلية إصدار تأشيرة الإستقدام</p>
+                  <li>الهوية الوطنية او الاقامة للمقيمين</li>
+                  <li>تعريف بالراتب من جهة العمل أو كشف حساب البنك</li>
+                  <li>دفع رسوم التأشيرة (٢٠٠٠ ريال)</li>
+              </ul>
+              <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+          </div>
+          <div class="box">
+            <div class="title">الوثائق المطلوبة لإستقدام العمالة المنزلية</div>
+            <ul>
+                <li>التأشيرة الأصل.</li>
+                <li>توقيع عقد إستقدام.</li>
+                <li>صورة الهوية الوطنية او الاقامة للمقيمين.</li>
+                <li>صورة دفتر العائلة او الجواز للمقيم.</li>
+                <li>دفع الرسوم لاستقدام العمالة المنزلية.</li>
+            </ul>
+            <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+        </div>
+          <div class="box">
+            <div class="title">متطلبات نقل كفالة العمالة المنزلية (تنازل)</div>
+            <ul>
+              <p>لتقديم طلب نقل كفالة أو تنازل العمالة المنزلية، يرجى زيارة نظام أبشر</p>
+                <li>تسديد رسوم نقل الكفالة (٢٠٠٠ ريال).</li>
+                <li>طلب نقل الكفالة إلى رقم هوية الكفيل الجديد.</li>
+                <li>موافقة العامل أو العاملة المنزلية من ابشر.</li>
+                <li>موافقة طلب نقل الكفالة من الكفيل الجديد.</li>
+                <li>إصدار الإقامة الجديدة بعد نقل الكفالة.</li>
+            </ul>
+            <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+        </div>
+        <div class="box">
+          <div class="title"> نظام حماية أجور العمالة المنزلية</div>
+          <ul>
+            <p>لتوثيق البطاقة البنكية في نظام حماية الأجور للعمالة المنزلية، يرجى زيارة موقع مساند www.musaned.com.sa</p>
+            <li>إصدار بطاقة بنك مسبقة الدفع لرواتب العمالة المنزلية.</li>
+            <li>توثيق بيانات العمالة المنزلية في نظام مساند.</li>
+            <li>تحديث بيانات العقد ومعلومات بطاقة البنك مسبقة الدفع.</li>
+          </ul>
+          <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+      </div>
+      <div class="box">
+        <div class="title">تأمين استقدام العمالة المنزلية <br>
+          <p>التأمين الطبي للعمالة المنزلية</p></div>
+        <ul>
+  <li>لمعرفة المزيد عن التأمين الصحي للعمالة المنزلية، نرجو التواصل معنا:</li>
+        </ul>
+        <a href="#contact" target="_blank">للتواصل معنا</a>
+    </div>
+    <div class="box">
+      <div class="title">متطلبات إصدار الإقامة</div>
+      <ul>
+         <p>لإصدار هوية مقيم (إقامة) للعمالة المنزلية القادمين إلى السعودية.</p>
+          <li>تسجيل الدخول في منصة أبشر.</li>
+          <li>اختيار الخدمات الإلكترونية، ثم خدمات المكفولين.</li>
+          <li>اختيار إصدار الإقامة من القائمة.</li>
+          <li>اختيار العامل المراد إصدار إقامة له.</li>
+          <li>اختيار إصدار الإقامة.</li>
+      </ul>
+      <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+     </div>
+     <div class="box">
+      <div class="title">الأنظمة والقوانين </div>
+      <ul>
+         <p>الضوابط والحالات لمنح تأشيرات الإستقدام المتعلقة بعمالة الخدمة المنزلية ومن في حكمهم.</p>
+        <li>ضوابط الاستقدام لإستخراج تأشيرة العمالة المنزلية للرجل والمرأة، السعودي والغير سعودي.</li>
+        <li>ضوابط الاستقدام لإستخراج تأشيرة العمالة المنزلية لذوي الإحتياجات الخاصة، أو ولي الأمر.</li>
+        <li>الضوابط لإستخراج التأشيرات التعويضية والبديلة عن الخروج النهائي.</li>
+        <li>قرارات الاستقدام والحالات والضوابط الأخرى لإستخراج تأشيرة العمالة المنزلية.</li>
+      </ul>
+      <a href="https://musaned.com.sa/recruitment-offices" target="_blank">تسجيل الدخول</a>
+     </div>
+     <div class="box">
+      <div class="title"> الحقوق والواجبات </div>
+      <ul>
+         <p>الحقوق والواجبات وفق ماورد في لائحة عمال الخدمة المنزلية لوزارة العمل والتنمية الإجتماعية.</p>
+        <li>تعريف صاحب العمل وعامل الخدمات المنزلية.</li>
+        <li>حقوق صاحب العمل وعامل الخدمات المنزلية.</li>
+        <li>واجبات صاحب العمل وعامل الخدمات المنزلية.</li>
+        <li>المخالفات والعقوبات لصاحب العمل وعامل الخدمات المنزلية.</li>
+      </ul>
+     </div>
+      </div>
+  </div>
+    <!-- End demands-->
+    <!-- start stars -->
+ <!-- Start stats -->
+ <div class="stats" id="stats" dir="rtl">
+  <h1 class="main_title_Articles">ما يميزنا</h1>
+  <div class="container">
+      <div class="box">
+          <span class="numbers">التواصل الفعال</span>
+      </div>
+      <div class="box">
+        <span class="numbers">خدمه العملاء 24 ساعه</span>
+    </div>
+    <div class="box">
+      <span class="numbers">طاقم عمل متدرب</span>
+  </div>
+  <div class="box">
+    <span class="numbers">توفير مترجم</span>
+</div>
+<div class="box">
+  <span class="numbers">سير ذاتيه بخيارات متعدده</span>
+</div>
+<div class="box">
+  <span class="numbers">حل المشكلات خلال مده العقد (سنتين)</span>
+</div>
+<div class="box">
+  <span class="numbers">الوصول خلال فتره وجيزه</span>
+</div>
+<div class="box">
+  <span class="numbers">سرعه الانجاز والتواصل الفعال خلال مده العقد معك</span>
+</div>
+  </div>
+</div>
+<!-- End stats -->
+    <!-- End stars -->
+    <div class="discount" id="contact" dir="rtl">
+      <div class="image">
+          <div class="content">
+              <h2> خبرات عمل تختارها حسب احتياجات مؤسستك</h2>
+              <p>
+                  <i class="fa-solid fa-location-dot"></i> 
+                  الرياض حي المصيف طريق ابي بكر الصديق
+              </p>
+              <p>
+                  <a onclick=gtag_report_conversion() href="mailto:domesticworkers55@gmail.com" target="_blank"><i class="fa-solid fa-envelope"></i>domesticworkers55@gmail.com</a>
+              </p>
+              <p>
+                  
+                  <a onclick=gtag_report_conversion() href="tel:0538551655" target="_blank"><i class="fa-solid fa-phone"></i>0538551655</a>
+              </p>
+              <p>
+                  <a onclick=gtag_report_conversion() href="https://wa.me/+0550251255?text=" target="_blank"><i class="fa-brands fa-whatsapp"></i>0550251255</a>
+              </p>
+          </div>
+      </div>
+      <div class="form">
+          <div class="content">
+              <h2>للتواصل معنا </h2>
+              <form action="https://formspree.io/f/xqkvabob" target="_blank" method="post">
+                  <input class="input" type="text" name="الاسم" placeholder="الاسم">
+                  <input class="input" type="email" name="البريد الالكتروني" placeholder="البريد الالكتروني">
+                  <input class="input" type="text" name="رقم الهاتف" placeholder="رقم الهاتف">
+                  <select class="input" name="الدوله" id="care">
+                      <option value="">اختر الدوله</option>
+                      <option value="الفلبين">الفلبين</option>
+                      <option value="سريلانكا">سريلانكا</option>
+                      <option value="كينيا">كينيا </option>
+                      <option value="اوغندا"> اوغندا</option>
+                      <option value="بنجلادش">بنجلادش</option>
+                      <option value="اثيوبيا">اثيوبيا</option>
+                      <option value="الهند">الهند</option>
+                    </select>
+                  <textarea class="input" name="الرساله" placeholder="اكتب استفسارك او طلبك"></textarea>
+                  <input type="submit" value="send">
+              </form>
+          </div>
+      </div>
+  </div>
+  <!-- End discount -->
+      <!-- Start footer  -->
+      <div class="footer" dir="rtl">
+        <div class="container">
+            <div class="box">
+                <h3>الاستقدام</h3>
+                <ul class="social">
+                    <li>
+                        <a href="https://twitter.com/AAlmotamyez" target="_blank" class="facebook">
+                          <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/elkayanelmutamayz?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" class="twitter">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://wa.me/+0550251255?text=" target="_blank" class="youtube">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="box">
+                <ul class="links">
+                  <li><a href="#">الرئيسيه</a></li>
+                  <li><a href="#">خدمات الاستقدام</a></li>
+                  <li><a href="#">دول الاستقدام</a></li>
+                  <li><a href="#">متطلبات الاستقدام</a></li>
+                  <li><a href="#">ما يميزنا</a></li>
+                  <li><a href="#">للتواصل معنا </a></li>
+                </ul>
+            </div>
+            <div class="box">
+                <div class="line">
+                    <i class="fas fa-map-marker-alt fa-fw"></i>
+                    <div class="info">
+                      الرياض حي المصيف طريق ابي بكر الصديق 
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="far fa-clock fa-fw"></i>
+                    <div class="info">
+                        خدمه 24 ساعه
+                    </div>
+                </div>
+                <div class="line">
+                    <i class="fas fa-phone-volume fa-fw"></i>
+                    <div class="info">
+                        <span>0538551655</span>
+                    </div>
+                </div>
+            </div>
+            <div class="box footer-gallery">
+
+            </div>
+        </div>
+        <p class="copyright">
+   يسعي مكتب استقدام لتلبيه احتياجاتكم </span></p>
+    </div>
+    <!-- End footer  -->
+  <!-- End contacts -->
+    <script src="./js/estkdam.js"></script>
+</body>
+</html>
